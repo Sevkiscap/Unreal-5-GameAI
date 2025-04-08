@@ -66,5 +66,11 @@ private:
 	/** Look Input Action */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* LookAction;
+
+	class UAIPerceptionStimuliSourceComponent* StimulusSource;
+
+	void SetupStimulus();
+
+	
 };
 
