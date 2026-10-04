@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Keep GitHub's language bar accurate: the Unreal upgrade logs are generated HTML
+*.htm linguist-generated=true
+UpgradeLog*.htm linguist-generated=true
